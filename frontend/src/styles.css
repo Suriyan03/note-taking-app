@@ -1,0 +1,439 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f6fa; /* white background */
+  color: #232323; /* dark text color */
+  width: 100%;
+}
+.container {
+  display: flex;
+  height: 100vh; /* full screen */
+  /* gap: 4rem; */
+}
+
+.left-panel {
+  flex: 1;
+  padding: 2rem;
+  width: 68rem;
+  margin-left: 6rem;
+}
+
+.right-panel {
+  flex: 1;
+  width: 7rem;  
+  padding: 5rem;
+  height: 35rem;
+  margin: .5rem;
+    border-radius: 1rem;
+
+}
+
+/* SignUp.css */
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Left Panel */
+.left-panel {
+  flex: 1;
+  background-color: #f5f6fa; /* light background */
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* Brand */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* margin-bottom: rem; */
+  margin-top: -5rem;
+
+}
+
+.brand img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.brand h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #232323;
+}
+
+/* Page title & subtitle */
+.page-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+  color: #232323;
+}
+
+.page-subtitle {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 1.5rem;
+}
+
+/* Form */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 5re;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #232323;
+}
+
+.form-input {
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #232323;
+  outline: none;
+  transition: all 0.2s ease;
+  width: 20rem;
+  height: 1.5rem;
+}
+
+.form-input:focus {
+  border-color: #367aff;
+  box-shadow: 0 0 5px rgba(54, 122, 255, 0.5);
+}
+
+/* Button */
+.primary-button {
+  padding: 12px;
+  background-color: #367aff;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 21.7rem;
+}
+
+.primary-button:hover {
+  background-color: #2b5ecc;
+}
+
+/* Sign in link */
+.text-center span {
+  font-size: 14px;
+  color: #6c6c6c;
+}
+
+.text-center span span {
+  font-weight: 600;
+  color: #357aff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Right Panel */
+.right-panel {
+  flex: 1;
+  background-image: url('/images/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Notes Page Container */
+.notes-page-container {
+  max-width: 1600px;
+  /* width: 300rem; */
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+.notes-header {
+  display: flex;
+  justify-content: center; /* This centers the items horizontally */
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin-left: 37rem;
+  margin-top: -10rem;
+}
+
+.notes-header .logo {
+  width: 50px;
+  height: 50px;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: -5rem;
+  margin-left: 2rem;
+}
+
+/* Welcome Card */
+.welcome-card {
+  background-color: #b7b8bd;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  width: 25rem;
+  margin-left: 32rem;
+}
+
+.welcome-card h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.welcome-card p {
+  margin: 0;
+  color: #555;
+}
+
+/* Buttons */
+.primary-button {
+  background-color: #367aff;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.primary-button:hover {
+  background-color: #285fcc;
+}
+
+.secondary-button {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.secondary-button:hover {
+  background-color: #cacaca;
+}
+
+.create-note-btn {
+  margin-bottom: 1.5rem;
+  margin-left: 33rem;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.modal-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.modal-form-group label {
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+.modal-input,
+.modal-textarea {
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: rgb(243, 241, 241);
+  color: black;
+}
+
+.modal-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+/* Notes List */
+.notes-heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-left: 32rem;
+}
+
+.notes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.note-card {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+  width: 30rem;
+  /* margin-left: 5rem; */
+}
+
+.note-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.note-card-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #ff4d4f;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  color: #d9363e;
+}
+
+/* Error Message */
+.error-msg {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+.modal-overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  transform: scale(0.95);
+  transition: transform 0.3s ease;
+}
+
+.modal.show {
+  transform: scale(1);
+}
+
+/* Logout Button *
+/* Notes Page Styles */
+.notes-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f5f6fa;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center;
+  /* overflow-x/: auto;  */
+  /* overflow-x: auto; */
+}
+
+.logout-btn{
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  margin-left: 10rem;
+}
+
+/* Styling for when there are no notes */
+.empty-notes-message {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  margin-top: 2rem;
+  margin-left: 32rem;
+}
